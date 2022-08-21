@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 import pytorch_lightning as pl
 
-from _my_lightning_modules import ReviewDataModule, ReviewRegressionNet
+from src._my_lightning_modules import ReviewDataModule, ReviewRegressionNet
 
 
 def main(args):
